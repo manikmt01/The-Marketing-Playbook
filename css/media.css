@@ -68,6 +68,19 @@
     width: 100%;
     margin-top: 25px;
   }
+  .arrow {
+    width: 100%;
+    position: static;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .arrow button img {
+    max-width: 50px;
+  }
+  .slider-for {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -108,9 +121,9 @@
     width: auto;
   }
 
-  .hero .row {
+  /* .hero .row {
     min-height: 60vh;
-  }
+  } */
 
   .hero_content {
     width: auto;
@@ -132,7 +145,7 @@
   }
 
   .why {
-    padding-top: 305px;
+    padding-top: 70px;
   }
 
   .info_img {
@@ -169,6 +182,16 @@
   .testimonials-userImg::after {
     width: 20%;
   }
+  .slider-nav {
+    max-width: 90%;
+    margin: auto;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+  .review {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -190,7 +213,7 @@
   }
 
   .why {
-    padding-top: 305px;
+    padding-top: 70px;
   }
 
   .testimonials-userImg::before,
@@ -218,7 +241,7 @@
   }
 
   .why {
-    padding-top: 280px;
+    padding-top: 70px;
   }
 
   .review-img img {
@@ -227,7 +250,7 @@
 
   .slick-slide img {
     transform: scale(1) !important;
-    min-height: 527px;
+    min-height: auto;
   }
 
   .slick-current {
@@ -241,32 +264,21 @@
   .slick-active {
     transform: scale(1) !important;
   }
-
-  .arrow {
-    width: 100%;
-    position: static;
-  }
-  .arrow button img {
-    max-width: 50px;
-  }
-  .slider-for {
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 425px) {
   .slick-slide img {
-    min-height: 450px;
+    min-height: auto;
     object-fit: cover;
   }
 }
 
 @media (max-width: 375px) {
   .why {
-    padding-top: 200px;
+    padding-top: 70px;
   }
   .slick-slide img {
-    min-height: 300px;
+    min-height: auto;
     object-fit: cover;
   }
 }

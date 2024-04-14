@@ -111,7 +111,7 @@ p {
 }
 
 .hero .row {
-  min-height: 70vh;
+  /* min-height: 70vh; */
 }
 
 .block_hl {
